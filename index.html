@@ -3,9 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>To-do List</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+	<div class="wrapper">
+		<h1>To-do List</h1>
+		<form>
+			<label>Add new activity <input class="list-input" type="text" name="list-input"></label>
+			<button type="submit">Add</button>
+		</form>
+		<hr>
+		<div class="list-container">
+			<h2>What you need to do:</h2>
+			<p>(Done with activity? Check it to cross it off!)</p>
+			<ul class="to-do-list"></ul>
+		</div>
+	</div>
 </body>
 </html>

@@ -1,0 +1,39 @@
+body {
+	margin: auto 0;	
+	text-align: center;
+	background-image: url(https://i.imgur.com/U34hA71.jpg);
+	background-size: cover;
+	color: white;
+	font-family: sans-serif;
+}
+
+ul {
+	list-style: none;
+	width: 335px;
+	margin-top: 30px;
+}
+
+hr {
+	margin-top: 30px;
+}
+
+.list-container {
+	width: 50%;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.list-container li {
+	text-align: left;
+}
+
+p {
+	font-style: italic;
+	margin: 0;
+	font-size: 13px;
+}
+
+li {
+	font-size: 25px;
+	margin-top: 10px;
+}
